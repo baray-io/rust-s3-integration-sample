@@ -1,0 +1,17 @@
+[package]
+name = "actix_s3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+dotenv = "0.15.0"
+rust-s3 = "0.34.0"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+tokio = { version = "1.40.0", features = ["full"] }
+actix-multipart = "0.7.2"
+futures-util = "0.3.30"
+uuid = { version = "1.10.0", features = ["v4"] }
+async-graphql = "7.0.7"
+async-graphql-actix-web = "7.0.7"
